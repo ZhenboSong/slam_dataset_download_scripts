@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-
 wget "http://kitti.is.tue.mpg.de/kitti/data_odometry_calib.zip"
 wget "http://kitti.is.tue.mpg.de/kitti/data_odometry_poses.zip"
 wget "http://kitti.is.tue.mpg.de/kitti/data_odometry_color.zip"
