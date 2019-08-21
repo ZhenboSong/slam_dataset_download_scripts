@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-wget "http://kitti.is.tue.mpg.de/kitti/data_odometry_calib.zip"
-wget "http://kitti.is.tue.mpg.de/kitti/data_odometry_poses.zip"
-wget "http://kitti.is.tue.mpg.de/kitti/data_odometry_color.zip"
-wget "http://kitti.is.tue.mpg.de/kitti/data_odometry_velodyne.zip"
+wget "https://s3.eu-central-1.amazonaws.com/avg-kitti/data_odometry_calib.zip"
+wget "https://s3.eu-central-1.amazonaws.com/avg-kitti/data_odometry_poses.zip"
+wget "https://s3.eu-central-1.amazonaws.com/avg-kitti/data_odometry_color.zip"
+wget "https://s3.eu-central-1.amazonaws.com/avg-kitti/data_odometry_velodyne.zip"
 
 echo "uzip: calib"
 tar -xzf data_odometry_calib.zip
